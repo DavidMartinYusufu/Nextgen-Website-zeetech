@@ -101,7 +101,7 @@ header {
 }
 
 header div {
-  background-image: url(/visual-contents-concept-social-networking-service-streaming-video-communication-network.jpeg);
+  /* background-image: url(/visual-contents-concept-social-networking-service-streaming-video-communication-network.jpeg); */
   background-repeat: no-repeat;
   background-size: 100% 400px;
   height: 400px;
@@ -113,7 +113,51 @@ header div {
   flex-direction: column;
 
   color: #fafafa;
+  animation: bgChange 20s linear infinite;
 }
+
+
+@keyframes bgChange {
+  0% {
+    background-image: url(/students-undergo-tutorials-on-film-production-at-ebonylife-creative-academy-in-lagos-on-may.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    height: 400px;
+  }
+
+  30% {
+    background-image: url(/african-megacity-lagos-nigeria.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    height: 400px;
+  }
+
+  55% {
+    background-image: url(/french-nigerian-humorist-mamane-gestures-on-the-set-of-his-first-movie-bienvenue-au-gondwana.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    height: 400px;
+  }
+  85% {
+    background-image: url(/members-of-the-media-gather-for-the-arrival-of-british-royal-diana-princess-of-wales-at-the.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    height: 400px;
+  }
+  100% {
+    background-image: url(/laughing-group-of-african-businesspeople-discussing-paperwork-in-an-office.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    height: 400px;
+  }
+  /* 100% {
+    background-image: url(/images/WhatsApp\ Image\ 2025-03-29\ at\ 1.24.25\ PM\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    height: 400px;
+  } */
+}
+
 
 header div::before {
   content: "";
@@ -129,7 +173,6 @@ header div h1,
 h2 {
   z-index: 1;
   width: 80%;
-
 }
 
 header h1 {
@@ -139,6 +182,11 @@ header h1 {
 header h2 {
   font-size: 16px;
 }
+
+@media (min-width: 40em) {
+  
+}
+
 
 @media (min-width: 40em) {
   header div {
@@ -165,11 +213,53 @@ header h2 {
     height: 500px;
     background: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
   }
+
+  @keyframes bgChange {
+    0% {
+      background-image: url(/students-undergo-tutorials-on-film-production-at-ebonylife-creative-academy-in-lagos-on-may.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100% 500px;
+      height: 500px;
+    }
+
+    30% {
+      background-image: url(/african-megacity-lagos-nigeria.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100% 500px;
+      height: 500px;
+    }
+
+    55% {
+      background-image: url(/french-nigerian-humorist-mamane-gestures-on-the-set-of-his-first-movie-bienvenue-au-gondwana.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100% 500px;
+      height: 500px;
+    }
+    85% {
+      background-image: url(/members-of-the-media-gather-for-the-arrival-of-british-royal-diana-princess-of-wales-at-the.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100% 500px;
+      height: 500px;
+    }
+    100% {
+      background-image: url(/laughing-group-of-african-businesspeople-discussing-paperwork-in-an-office.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100% 500px;
+      height: 500px;
+    }
+    /* 100% {
+      background-image: url(/images/WhatsApp\ Image\ 2025-03-29\ at\ 1.24.23\ PM.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100% 500px;
+      height: 500px;
+    } */
+  }
   header div h1,
   h2 {
     z-index: 1;
     width: 70%;
     /* margin: auto; */
+    /* font-family: "poppins"; */
   }
   header h1 {
     font-size: 40px;
@@ -279,7 +369,6 @@ h3 {
 .fourth-section {
   display: flex;
   flex-direction: column;
-
   gap: 20px;
   width: 90%;
   margin: auto;
@@ -296,7 +385,6 @@ h3 {
 }
 
 .fourth-section p {
-  /* width: 60%; */
   margin: 0%;
 }
 
@@ -433,7 +521,7 @@ h3 {
 
 .seventh-section-img {
   /* width: 100%; */
-  background-image: url(/image.jpeg);
+  background-image: url(/african-megacity-lagos-nigeria.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
