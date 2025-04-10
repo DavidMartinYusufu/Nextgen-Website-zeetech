@@ -455,9 +455,9 @@ h3 {
   gap: 10px;
   line-height: 1.3;
   font-size: 15px;
-  padding: 0%;
+  /* padding: 0%; */
   margin: 0%;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 
 .approach-ctn h3 {
@@ -470,9 +470,9 @@ h3 {
   gap: 10px;
   line-height: 1.3;
   font-size: 15px;
-  padding: 0%;
+  /* padding: 0%; */
   margin: 0%;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 
 /* SIXTH SECTION  */
@@ -503,6 +503,7 @@ h3 {
 
   .sixth-section-ctn {
     grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
   }
 
   .sixth-section h3 {
@@ -535,6 +536,7 @@ h3 {
 .seventh-section h3 {
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .seventh-section-ctn {
@@ -549,6 +551,11 @@ h3 {
     margin-top: 80px;
     margin-bottom: 80px;
     width: 80%;
+  }
+
+  .seventh-section-ctn {
+    width: 70%;
+    margin: auto;
   }
 
   .seventh-section-img {
